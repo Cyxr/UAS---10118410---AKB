@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".booking_activity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="200dp"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="37dp"
+            android:text="Silahkan di isi untuk di kontak"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:layout_marginStart="60dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginEnd="60dp"
+            android:layout_marginRight="100dp"
+            android:layout_marginTop="5dp"
+            />
+
+        <EditText
+            android:id="@+id/nama"
+            android:layout_width="match_parent"
+            android:layout_height="37dp"
+            android:hint="Nama"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:background="#D6D1D1"
+            android:layout_marginStart="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginRight="100dp"
+            android:layout_marginTop="5dp"
+            android:padding="5dp"
+            android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+        <EditText
+            android:id="@+id/kota"
+            android:layout_width="match_parent"
+            android:layout_height="37dp"
+            android:hint="Asal Kota"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:background="#D6D1D1"
+            android:layout_marginStart="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginEnd="20dp"
+            android:padding="5dp"
+            android:layout_marginRight="100dp"
+            android:layout_marginTop="5dp"
+            android:textAppearance="?android:attr/textAppearanceMedium"/>>
+
+        <EditText
+            android:id="@+id/kontak"
+            android:layout_width="match_parent"
+            android:layout_height="37dp"
+            android:hint="No Hp / email yang bisa dikontak"
+            android:textColor="@color/black"
+            android:textSize="23dp"
+            android:padding="5dp"
+            android:background="#D6D1D1"
+            android:layout_marginStart="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginRight="100dp"
+            android:layout_marginTop="5dp"
+            android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+        <Button
+            android:id="@+id/btnSimpan"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:text="Simpan"
+            android:layout_marginStart="80dp"
+            android:layout_marginLeft="100dp"
+            android:layout_marginEnd="100dp"
+            android:layout_marginRight="100dp"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/black"
+            android:onClick="simpan"/>
+
+
+    </LinearLayout>
+</LinearLayout>

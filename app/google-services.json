@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "1076204204591",
+    "firebase_url": "https://uas10118410-tempat-wisata-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "uas10118410-tempat-wisata",
+    "storage_bucket": "uas10118410-tempat-wisata.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1076204204591:android:a2f8c36c7671b60bc98cda",
+        "android_client_info": {
+          "package_name": "com.RidwanCaesarahmanJulian.uas10118410"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1076204204591-o8tlp58mpt1723k37qb8q2d76e647a3g.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAgCzDgqw11nKiuPIhYVD4odwcXDH8j3Ds"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1076204204591-o8tlp58mpt1723k37qb8q2d76e647a3g.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1076204204591:android:7d2c57cff1631332c98cda",
+        "android_client_info": {
+          "package_name": "com.ridwancaesarahmanjulian.uas10118410"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1076204204591-o8tlp58mpt1723k37qb8q2d76e647a3g.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAgCzDgqw11nKiuPIhYVD4odwcXDH8j3Ds"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1076204204591-o8tlp58mpt1723k37qb8q2d76e647a3g.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
